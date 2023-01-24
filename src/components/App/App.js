@@ -49,7 +49,7 @@ export class App extends Component {
 
     return (
       <Container>
-        <MainTitle>Phonebook</MainTitle>
+        <MainTitle>Phonebook </MainTitle>
         <ContactForm contactCreate={this.contactCreate}></ContactForm>
         <SectionTitle>Contacts</SectionTitle>
         <Filter filter={filter} onInputChange={this.onInputChange}></Filter>
